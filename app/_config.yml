@@ -17,3 +17,6 @@ url: "http://tedxuofw.com" # the base hostname & protocol for your site
 # Build config
 include: ['.htaccess']
 markdown: kramdown
+
+# Location config
+
