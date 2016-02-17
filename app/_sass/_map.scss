@@ -1,0 +1,13 @@
+/* Contains layout for the map on the attend page */
+
+.map-wrapper,
+#gmap_canvas {
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-width: $screen-md-min) {
+    .map {
+        float: right;
+    }
+}
