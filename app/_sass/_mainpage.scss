@@ -1,0 +1,47 @@
+/* Styles corresponding to the main page (mostly the fancy center stuff) */
+
+.home {
+    height: 100%;
+}
+
+.center-focus {
+    max-width: 30em;
+    margin: 2em auto 0;
+    text-align: center;
+}
+
+.center-focus .tagline {
+    font-size: 5em;
+    margin: .5em auto;
+}
+
+@media (min-width: $screen-xs-min) and (min-height: 30em) {
+    .center-focus {
+        margin-top: 8em;
+    }
+}
+
+@media (min-width: $screen-sm-min) and (min-height: 30em) {
+    .center-focus {
+        margin-top: 8em;
+    }
+}
+
+
+@media (min-width: $screen-sm-min) and (min-height: 40em) {
+    .center-focus {
+        margin-top: 12em;
+    }
+}
+
+@media (min-width: $screen-md-min) and (min-height: 30em) {
+    .center-focus {
+        margin-top: 8em;
+    }
+}
+
+@media (min-width: $screen-md-min) and (min-height: 40em) {
+    .center-focus {
+        margin-top: 12em;
+    }
+}
