@@ -1,15 +1,21 @@
 <header class="site-header">
     <div class="container">
+        <div class="row">
+            <a class="main-logo col-xs-6 col-sm-3" href="/">
+                <img src="/media/website/red-black-tedxuofw-logo-830x186.jpg" alt="TEDxUofW Logo" />
+            </a>
 
-        <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-        <nav class="site-nav">
-            {% for page in site.data.nav %}
-                <a class="page-link"
-                   href="{{ page.url }}">
-                    {{ page.title }}
-                </a>
-            {% endfor %}
-        </nav>
+            <nav class="site-nav col-xs-6 col-sm-9">
+                <ul class="nav-container">
+                    {% for link in site.data.nav %}
+                        <li class="{% if (page.page_id == link.id) %}current-page{% endif %}">
+                            <a href="{{ link.url }}">
+                                <span>{{ link.title }}</span>
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        </div>
     </div>
 </header>
