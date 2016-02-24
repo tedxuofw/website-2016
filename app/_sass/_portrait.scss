@@ -1,0 +1,19 @@
+.portrait-image {
+  height: 15em;
+  width: 100%;
+  background: url('/media/2016/Michael.jpg');
+  background-size: 12em;
+  //height:400px;
+  //width:400px;
+  //margin-left:auto; /*position the [div] on the center*/
+  //margin-right: auto;
+  //margin-top: 50px;
+  //margin-bottom: 50px;
+  //border: 5px solid white;
+}
+/*this is the hover event trigger*/
+.portrait-image:hover {
+  cursor:pointer;
+  background:url('/media/2016/Michael.gif');
+  background-size: 12em;
+}
