@@ -1,0 +1,16 @@
+/* Styles related to buttons, specifically */
+
+.btn-tedx {
+    //border: 2px solid $tedx-red;
+    //color: $tedx-red;
+    background-color: $tedx-red;
+    color: white;
+    transition: background-color ease-out .15s;
+
+    &:active,
+    &:hover,
+    &:focus {
+        background-color: lighten($tedx-red, 10%);
+        color: white;
+    }
+}

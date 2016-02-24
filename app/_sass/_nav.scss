@@ -1,0 +1,42 @@
+/* Styles related to the top-level nav and header in general */
+
+.site-header {
+    padding-top: 1em;
+}
+
+.nav-container {
+    float: right;
+}
+
+.nav-container > li {
+    display: inline-block;
+}
+
+.nav-container a {
+    /* Treat 'a' as a block so that we have a bigger hover target */
+    display: block;
+    padding: .6em .7em .6em .7em;
+    text-decoration: none;
+
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+.nav-container span {
+    color: $text-color;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: color ease-out .15s;
+}
+
+.nav-container .current-page span,
+.nav-container span:hover,
+.nav-container span:active,
+.nav-container span:focus {
+    color: #888;
+}
+
+

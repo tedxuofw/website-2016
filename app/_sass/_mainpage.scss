@@ -15,6 +15,14 @@
     margin: .5em auto;
 }
 
+.center-focus .date {
+    font-size: 1.5em;
+}
+
+.center-focus .btn {
+    margin-top: 1em;
+}
+
 @media (min-width: $screen-xs-min) and (min-height: 30em) {
     .center-focus {
         margin-top: 8em;
