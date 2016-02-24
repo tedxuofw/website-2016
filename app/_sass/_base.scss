@@ -8,13 +8,21 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
-h2 {
-    border-bottom: 1px solid $tedx-red;
-    width: 9em; 
-    margin-bottom: 1.5em;
+p {
+    margin-bottom: .5em;
 }
 
+h2 {
+    border-bottom: 2px solid $tedx-red;
+    max-width: 50%; 
+    margin-bottom: 1em;
+    padding-bottom: .25em;
+    margin-top: 1.5em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
 
 
 /**
@@ -60,15 +68,13 @@ li {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $tedx-red;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
+    &:active,
+    &:hover,
+    &:focus {
+        color: lighten($tedx-red, 10%);
         text-decoration: underline;
     }
 }

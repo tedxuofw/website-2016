@@ -17,3 +17,23 @@ body {
     text-align: center;
 }
 
+.page-heading {
+    height: 100%;
+    position: relative;
+}
+
+.page-heading h1 {
+    display: block;
+    position: absolute;
+    color: white;
+    font-size: 5em;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width: $screen-sm-min) {
+    .indent-block {
+        padding-left: 3em;
+    }
+}

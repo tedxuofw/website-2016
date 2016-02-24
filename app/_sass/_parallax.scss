@@ -1,11 +1,16 @@
 /* Code for parallax scrolling effects */
 
+.parallax {
+    position: relative;
+}
+
 .image-parallax {
     height: 10em;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    margin: 2em 0;
 }
 
 .parallax.ocean-parallax {
