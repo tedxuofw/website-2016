@@ -9,20 +9,51 @@ page_id: blog
             <h1>Blog</h1>
         </div>
     </div>
+    <div class="container">
+        <h2 class="blog-title">Blog Post Title</h2>
+        <h4>Date or Tagline</h4>
 
-    {% for post in site.posts reversed %}
-        <div class="container">
-            <h2 class="blog-title">{{ post.title }}</h2>
-            <h4>{{ post.date | date: '%B %d, %Y' }}</h4>
+        <div>
+            <div class="blog-post-content">
+                    <div class="row">
+                        <div class="blog-image-group col-lg-9">
+                            <img class="blog-image" src="/media/2015/speakers/hollis-wong-wear.JPG">
+                            <img class="blog-image" src="/media/2015/speakers/hollis-wong-wear.JPG">
+                            <img class="blog-image" src="/media/2015/speakers/hollis-wong-wear.JPG">
+                        </div>
+                    </div>
+                        <div class="blog-text-group">
+                            <p>
+                                Blog content
+                            </p>
+                        </div>
 
-            <div class="indent-block">
-                <div class="blog-post-content">
-                    {{ post.content }}
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parallax ocean-parallax"></div>
+
+    <div class="container">
+        <h2 class="blog-title">Blog Post Title</h2>
+        <h4>Date or Tagline</h4>
+
+        <div class="indent-block">
+            <div class="blog-post-content">
+                <div class="blog-image-group">
+                    <img class="blog-image" src="/media/2015/speakers/hollis-wong-wear.JPG">
+                    <img class="blog-image" src="/media/2015/speakers/hollis-wong-wear.JPG">
+                    <img class="blog-image" src="/media/2015/speakers/hollis-wong-wear.JPG">
+                </div>
+                <div class="blog-text-group">
+                    <!--<p>-->
+                        <!--Blog content-->
+                    <!--</p>-->
                 </div>
             </div>
         </div>
 
         <div class="parallax ocean-parallax"></div>
-    {% endfor %}
 </div>
 
