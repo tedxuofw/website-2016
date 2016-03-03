@@ -4,7 +4,7 @@
 
 To develop locally, `cd` into the `app` folder, and run:
 
-    $ jekyll serve
+    $ jekyll serve --incremental
 
 To build the final site, `cd` into the `app` folder and run:
 

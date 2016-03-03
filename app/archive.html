@@ -4,7 +4,6 @@ layout: default
 
 <div class="archive container">
     <h2>2014</h2>
-    <p class="heading-subtitle">Tagline here</p>
 
     <ul class="nav nav-tabs" role="tablist">
         <li role="presentation" class="active">
@@ -42,16 +41,80 @@ layout: default
     </ul>
 
     <div class="tab-content">
-        <div role="tabpanel" class="active" id="#2014-description">
-            Description (Description)
+        <div role="tabpanel" class="tab-pane active" id="2014-description">
+            <div class="row">
+                <div class="col-sm-9">
+                    <h3>Description</h3>
+
+                    <p>Transcend (v): be or go beyond the range or limits of.</p>
+
+                    <p>Our theme this year is Transcend with TED. We're centering it around the idea of how TED talks can drive change in all facets of your life. Particularly, taking the way you think, feel, and act to the next level. How can TED talks inspire change in your perspective, emotions, and actions? How can you take what you've learned and apply it to your everyday life?</p>
+
+                    <p>TEDxUofW 2014: Transcend with TED.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3>Synopsis</h3>
+
+                    <p><strong>Location:</strong><br />
+                    UW Tower<br />
+                    4333 Brooklyn Ave NE<br />
+                    Seattle WA</p>
+
+                    <p><strong>Date:</strong><br />
+                    Saturday, May 3rd 2014<br />
+                    11:00 am to 5:00 pm</p>
+
+                    <p><a href="https://www.flickr.com/photos/132154190@N03/sets/72157649313039014/">View more images from our 2014 conference</a></p>
+                </div>
+            </div>
         </div>
-        <div role="tabpanel" class="active" id="#2014-speakers">
-            Description (Speakers)
+        <div role="tabpanel" class="tab-pane" id="2014-speakers">
+            <h3>Our speakers</h3>
+
+            <p>Select a speaker to for videos/a bio.</p>
+
+            <div class="row past-speakers">
+                {% for speaker in site.data.2014-speakers.speakers %}
+                    <div class="col-xs-6 col-sm-3 col-lg-2 past-speaker"
+                         data-toggle="modal"
+                         data-target=".{{ speaker.unique_id }}-popup">
+                            <img src="{{ speaker.image }}" alt="{{ speaker.name }}">
+                        <p>{{ speaker.name }}</p>
+                    </div>
+                    <div class="modal fade {{ speaker.unique_id }}-popup" 
+                         tabindex="-1" 
+                         role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content modal-lg">
+                                <div class="modal-header">
+                                    <button type="button" 
+                                            class="close" 
+                                            data-dismiss="modal" 
+                                            aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title">{{ speaker.name }}</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <div class="col-lg-9">
+
+                                        </div>
+                                        <div class="col-lg-3">
+                                            {{ speaker.bio }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
-        <div role="tabpanel" class="active" id="#2014-sponsors">
+        <div role="tabpanel" class="tab-pane" id="2014-sponsors">
             Description (Sponsors)
         </div>
-        <div role="tabpanel" class="active" id="#2014-volunteers">
+        <div role="tabpanel" class="tab-pane" id="2014-volunteers">
             Description (Volunteers)
         </div>
     </div>
