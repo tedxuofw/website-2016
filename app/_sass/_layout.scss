@@ -32,9 +32,13 @@ body {
     right: 0;
 }
 
+.text-group {
+    text-align: justify;
+}
+
 @media (min-width: $screen-sm-min) {
-    .indent-block {
-        padding-left: 3em;
+    .text-group {
+        padding-right: 8em;
     }
 }
 
