@@ -2,6 +2,26 @@
 layout: default
 page_id: about
 ---
+<script>
+    $(function() {
+        $("#v_michael").hover(
+                function() {
+                    $(this).attr("src", "media/2016/volunteers/MichaelSmall.gif");
+                },
+                function() {
+                    $(this).attr("src", "media/2016/volunteers/MichaelSmall.jpg");
+                }
+        );
+        $("#v_haley").hover(
+                function() {
+                    $(this).attr("src", "media/2016/volunteers/Hayley.gif");
+                },
+                function() {
+                    $(this).attr("src", "media/2016/volunteers/Hayley.jpg");
+                }
+        );
+    });
+</script>
 
 <div class="about">
     <div class="parallax ocean-parallax">
@@ -108,11 +128,15 @@ page_id: about
                 <p>Name/position</p>
             </div>
             <div class="col-xs-6 col-sm-3 col-lg-2 volunteer">
-                <div class="image-placeholder"></div>
+                <div class="image-placeholder">
+                    <img class="v_image" id="v_michael" src="media/2016/volunteers/MichaelSmall.jpg">
+                </div>
                 <p>Name/position</p>
             </div>
             <div class="col-xs-6 col-sm-3 col-lg-2 volunteer">
-                <div class="image-placeholder"></div>
+                <div class="image-placeholder">
+                    <img class="v_image" id="v_haley" src="media/2016/volunteers/Hayley.jpg">
+                </div>
                 <p>Name/position</p>
             </div>
             <div class="col-xs-6 col-sm-3 col-lg-2 volunteer">

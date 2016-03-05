@@ -7,9 +7,9 @@
 -   title: "Attend"
     id: attend
     url: /attend
--   title: "Blog"
-    id: blog 
-    url: /blog
+-   title: "News"
+    id: news
+    url: /news
 -   title: "Archive"
     id: archive 
     url: /archive
