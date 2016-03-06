@@ -1,0 +1,45 @@
+<div class="row archive-speakers-container">
+    <div class="col-sm-3 col-sm-push-9">
+        <h3>Playlist</h3>
+        {% include summary-speakers-playlist.html
+                   year=include.year
+                   speakers=include.speakers %}
+    </div>
+    <div class="col-sm-9 col-sm-pull-3">
+        <div class="archive-video active" id="{{ include.year }}-description">
+            {% include {{ include.description_path }} %}
+        </div>
+        {% for speaker in include.speakers.speakers %}
+            <div class="archive-video" 
+                 id="{{ include.year }}-{{ speaker.unique_id }}">
+                <h3>{{ speaker.name }}: {{ speaker.talk_name }}</h3>
+
+                {% if speaker.video != "" %}
+                    <div class="embed-responsive embed-responsive-16by9"
+                         data-video="{{ speaker.video }}?autoplay=0">
+                        <noscript>
+                            <iframe class="embed-responsive-item"
+                                    src ="{{ speaker.video }}?autoplay=0"
+                                    allowfullscreen></iframe>
+                        </noscript>
+                    </div>
+
+                    <h3>Biography</h3>
+                    <noscript>
+                        <p><a href="{{ speaker }}">View video on YouTube</a></p>
+                    </noscript>
+                {% endif %}
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <img src="{{ speaker.image }}"
+                             alt="Portrait of {{ speaker.name }}" />
+                    </div>
+                    <div class="col-sm-8">
+                        {{ speaker.bio }}
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

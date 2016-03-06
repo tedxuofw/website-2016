@@ -1,0 +1,22 @@
+<ul class="playlist">
+    <li>
+        <a href="#{{ include.year }}-description" 
+           class="playlist-select active"
+           title="Description">
+            <span class="arrow glyphicon glyphicon-chevron-right" 
+                  aria-hidden="true"></span>
+            <span class="text">Description</span>
+        </a>
+    </li>
+    {% for speaker in include.speakers.speakers %}
+        <li>
+            <a class="playlist-select" 
+               href="#{{ include.year }}-{{ speaker.unique_id }}"
+               title="{{ speaker.name }}: {{ speaker.talk_name }}">
+                <span class="arrow glyphicon glyphicon-chevron-right" 
+                      aria-hidden="true"></span>
+                <span class="text">{{ speaker.name }}</span>
+            </a>
+        </li>
+    {% endfor %}
+</ul>

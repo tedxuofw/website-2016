@@ -1,0 +1,56 @@
+<h2>{{ include.year }}</h2>
+
+{% if include.sponsors != null or include.volunteers != null %}
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#{{ include.year }}-speakers" 
+               aria-controls="{{ include.year }}-speakers" 
+               role="tab" 
+               data-toggle="tab">
+                Speakers 
+            </a>
+        </li>
+        {% if include.sponsors != null %}
+            <li role="presentation">
+                <a href="#{{ include.year }}-sponsors" 
+                   aria-controls="{{ include.year }}-sponsors" 
+                   role="tab" 
+                   data-toggle="tab">
+                    Sponsors 
+                </a>
+            </li>
+        {% endif %}
+        {% if include.volunteers != null %}
+            <li role="presentation">
+                <a href="#{{ include.year }}-volunteers" 
+                   aria-controls="{{ include.year }}-volunteers" 
+                   role="tab" 
+                   data-toggle="tab">
+                    Volunteers 
+                </a>
+            </li>
+        {% endif %}
+    </ul>
+{% endif %}
+
+<div class="tab-content archive-tab-content">
+    <div role="tabpanel" 
+         class="tab-pane active"
+         id="{{ include.year }}-speakers">
+        {% include summary-speakers.html
+                   year=include.year
+                   speakers=include.speakers
+                   description_path=include.description_path %}
+    </div>
+    {% if include.sponsors != null %}
+        <div role="tabpanel" class="tab-pane sponsors" id="{{ include.year }}-sponsors">
+            {% include summary-sponsors.html
+                       sponsors=include.sponsors %}
+        </div>
+    {% endif %}
+    {% if include.volunteers != null %}
+        <div role="tabpanel" class="tab-pane" id="{{ include.year }}-volunteers">
+            Description (Volunteers)
+        </div>
+    {% endif %}
+</div>
