@@ -1,14 +1,5 @@
-.portrait-image-michael {
-    background: url('/media/2016/volunteers/MichaelSmall.jpg');
 
-    &:hover {
-        cursor:pointer;
-        background:url('/media/2016/volunteers/MichaelSmall.gif');
-        background-size: 12em;
-
-    }
-}
-
+//unused
 .portrait-image {
   height: 15em;
   width: 100%;
@@ -22,6 +13,11 @@
   //border: 5px solid white;
 }
 
+
 .v_image {
 
+}
+
+.volunteer {
+  margin-bottom: 2em;
 }
