@@ -9,7 +9,14 @@ body {
 
 .image-placeholder {
     width: 100%;
-    height: 15em;
+    height: 17em;
+    background-color: black;
+    overflow: hidden;
+}
+
+.image-portrait {
+    width: 100%;
+    height: 100%;
     background-color: black;
     overflow: hidden;
 }
@@ -37,12 +44,4 @@ body {
     .indent-block {
         padding-left: 3em;
     }
-}
-
-/**
- * Team Portraits
- */
-
-.team {
-
 }
