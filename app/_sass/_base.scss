@@ -160,3 +160,21 @@ blockquote {
         }
     }
 }
+
+#videoDiv {
+    padding: 0;
+    margin: 0;
+}
+
+//video
+video {
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+#whitespace {
+    width: 100%;
+    background-color: white;
+    height: 15pt;
+}
