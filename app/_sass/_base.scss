@@ -57,9 +57,16 @@ h4 {
 }
 
 .blog-text-group {
-    display: flex;
-    width: 70em;
-    text-align: justify;
+    //display: flex;
+    //width: 70em;
+
+}
+
+@media (min-width: $screen-md-min) {
+    .blog-text-group {
+        display: flex;
+        width: 70em;
+    }
 
     >:first-child {
         margin-left: 0;
