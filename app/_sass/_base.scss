@@ -13,10 +13,16 @@ p {
 }
 
 h2 {
-    max-width: 50%;
+    max-width: 75%;
     margin-bottom: 1em;
     padding-bottom: .25em;
     margin-top: 1em;
+}
+
+@media (min-width: $screen-md-min) {
+    h2 {
+        max-width: 50%;
+    }
 }
 
 h3 {
