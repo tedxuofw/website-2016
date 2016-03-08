@@ -1,6 +1,9 @@
 -   title: "Home"
     id: home
     url: /
+-   title: "Index2"
+    id: index2
+    url: /index2
 -   title: "About"
     id: about
     url: /about
