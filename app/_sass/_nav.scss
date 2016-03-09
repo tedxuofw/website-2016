@@ -24,12 +24,12 @@
     width: 12em;
 }
 
-.nav-container a {
+.nav-link {
     /* Treat 'a' as a block so that we have a bigger hover target */
     display: block;
     padding: .2em .3em .2em .3em;
     text-decoration: none;
-    font-size: .6em;
+    font-size: .7em;
 
     &:hover,
     &:active,
@@ -38,6 +38,10 @@
     }
 
     margin: 0;
+}
+
+.nav-link-icon {
+    padding: .2em .3em .2em .3em;
 }
 
 
@@ -58,9 +62,13 @@
 
     //site-nav margin and padding?
 
-    .nav-container a {
+    .nav-link {
         font-size: 1em;
         padding: .6em .7em .6em .7em;
+    }
+
+    .nav-link-icon {
+        padding: .4em .5em .4em .5em;
     }
 
 }
@@ -78,5 +86,19 @@
 .nav-container span:focus {
     color: #888;
 }
+
+
+.social-media-icon {
+    width: 2em;
+    display: none;
+}
+
+@media (min-width: $screen-sm-min) {
+    .social-media-icon {
+        display: inline-block;
+    }
+
+}
+
 
 
