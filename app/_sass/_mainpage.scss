@@ -3,6 +3,7 @@
 .center-focus-container {
     height: 100%;
     position: relative;
+    width: 100%;
 }
 
 .center-focus {
@@ -28,8 +29,9 @@
 
 .homepage-animation {
     height: 100%;
+    width: 100%;
     position: absolute;
-    top: 0;
+    bottom: 0;
     z-index: 0;
 }
 
@@ -63,3 +65,41 @@
         margin-top: 12em;
     }
 }
+
+.buy-button {
+    position: relative;
+    z-index: 3;
+}
+
+.buy-button a {
+    display: block;
+    border-radius: 8em;
+    height: 8em;
+    width: 8em;
+    padding-top: 3.3em;
+    text-align:center;
+    border: 1px solid $tedx-red;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+    margin: 2em auto;
+
+    &:hover {
+        background-color: $tedx-red;
+        color: white;
+        text-decoration: none;
+
+    }
+}
+
+@media (min-width: $screen-xs-min) {
+    .buy-button {
+        position: fixed;
+        bottom: 2em;
+        right: 2em;
+    }
+
+    .buy-button a {
+        margin: 0 0;
+    }
+}
+
