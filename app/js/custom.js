@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    // ARCHIVES WIDGET 
+    
     function toggleSpeaker(speakers) {
         return function(event) {
             var element = $(this);
@@ -44,4 +46,20 @@ $(document).ready(function() {
     }
 
     $(".archive-speakers-container").each(setupArchiveSpeakerPlaylist);
+
+    // ANIMATED PORTRAITS 
+    
+    function replaceWithAnimation() {
+        var img = $(this);
+        img.attr("src", img.data("animation"));
+    }
+
+    function replaceWithStatic() {
+        var img = $(this);
+        img.attr("src", img.data("static"));
+    }
+
+    $(".portraits .static-image")
+        .removeClass("static-image")  // To overwrite CSS
+        .hover(replaceWithAnimation, replaceWithStatic);
 });
