@@ -11,11 +11,31 @@
                 <ul class="nav-container">
                     {% for link in site.data.nav %}
                         <li class="{% if (page.page_id == link.id) %}current-page{% endif %}">
-                            <a href="{{ link.url }}">
+                            <a class="nav-link" href="{{ link.url }}">
                                 <span>{{ link.title }}</span>
                             </a>
                         </li>
                     {% endfor %}
+                    <li>
+                        <a class="nav-link-icon" href="https://www.facebook.com/TEDxUofW/?fref=ts">
+                            <img  class="social-media-icon" src="/media/website/greyfb.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link-icon" href="https://www.instagram.com/tedxuofw/">
+                            <img  class="social-media-icon" src="/media/website/greyig.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link-icon" href="https://twitter.com/tedxuofw">
+                            <img  class="social-media-icon" src="/media/website/greytwitter.png">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link-icon" href="https://www.youtube.com/user/TEDxUofWashington">
+                            <img  class="social-media-icon" src="/media/website/greyyt.png">
+                        </a>
+                    </li>
                 </ul>
             </nav>
         </div>
