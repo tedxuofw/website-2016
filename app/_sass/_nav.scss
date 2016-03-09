@@ -2,33 +2,73 @@
 
 .site-header {
     padding-top: 1em;
+    margin-bottom: .3em;
 }
 
 .nav-container {
-    float: right;
+    float: left;
+    margin: .2em;
+}
+
+.site-nav {
+    padding: 0;
+    margin: 0;
 }
 
 .nav-container > li {
     display: inline-block;
 }
 
+.main-logo {
+    display: block;
+    width: 12em;
+}
+
 .nav-container a {
     /* Treat 'a' as a block so that we have a bigger hover target */
     display: block;
-    padding: .6em .7em .6em .7em;
+    padding: .2em .3em .2em .3em;
     text-decoration: none;
+    font-size: .8em;
 
     &:hover,
     &:active,
     &:focus {
         text-decoration: none;
     }
+
+    margin: 0;
+}
+
+
+@media (min-width: $screen-sm-min) {
+
+    .main-logo {
+        width: 15em;
+    }
+
+    .nav-container {
+        margin-top: 0;
+        float: right;
+    }
+
+    .site-header {
+        margin-bottom: 1em;
+    }
+
+    //site-nav margin and padding?
+
+    .nav-container a {
+        font-size: 1em;
+        padding: .6em .7em .6em .7em;
+    }
+
 }
 
 .nav-container span {
     color: $text-color;
-    font-size: 1.1em;
     font-weight: bold;
+    font-size: 1.1em;
     transition: color ease-out .15s;
 }
 
