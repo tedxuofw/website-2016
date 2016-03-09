@@ -49,6 +49,23 @@ $(document).ready(function() {
 
     // ANIMATED PORTRAITS 
     
+    function preloadImages(images, delay) {
+        var index = 0;
+        function preload() {
+            var img = $(images[index]);
+            var temp = new Image();
+            temp.src = img.data("animation");
+            index += 1;
+            if (index < images.length) {
+                window.setTimeout(preload, delay);
+            }
+        }
+        if (images.length > 0) {
+            window.setTimeout(preload, delay);
+        }
+    }
+
+    
     function replaceWithAnimation() {
         var img = $(this);
         img.attr("src", img.data("animation"));
@@ -61,5 +78,12 @@ $(document).ready(function() {
 
     $(".portraits .static-image")
         .removeClass("static-image")  // To overwrite CSS
+        .addClass("dynamic-image")
         .hover(replaceWithAnimation, replaceWithStatic);
+
+    // Only start pre-loading gifs when all other files/images are
+    // finished loading.
+    $(window).on("load", function() {
+        preloadImages($(".portraits .dynamic-image").toArray(), 100);
+    });
 });
