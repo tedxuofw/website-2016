@@ -14,8 +14,24 @@
 }
 
 
-.v_image {
+.image-portrait .static-image {
+    display: block;
+}
 
+.image-portrait .gif {
+    display: none;
+}
+
+.image-portrait:hover .static-image,
+.image-portrait:active .static-image,
+.image-portrait:focus .static-image {
+    display: none;
+}
+
+.image-portrait:hover > .gif,
+.image-portrait:active > .gif,
+.image-portrait:focus > .gif {
+    display: block;
 }
 
 .volunteer {
