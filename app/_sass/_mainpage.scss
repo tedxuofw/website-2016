@@ -2,9 +2,12 @@
 
 .center-focus-container {
     height: 100%;
+    position: relative;
 }
 
 .center-focus {
+    position: relative;
+    z-index: 1;
     max-width: 30em;
     margin: 2em auto 0;
     text-align: center;
@@ -21,6 +24,13 @@
 
 .center-focus .btn {
     margin-top: 1em;
+}
+
+.homepage-animation {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 0;
 }
 
 @media (min-width: $screen-xs-min) and (min-height: 30em) {

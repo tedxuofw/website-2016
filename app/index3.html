@@ -1,0 +1,67 @@
+---
+layout: default
+page_id: home
+---
+
+<script src="http://popcornjs.org/code/dist/popcorn-complete.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var video = Popcorn("#animation");
+        video.preload("auto");
+
+        var duration = video.duration();
+        var startAt = 100;
+        var maxHeight = window.innerHeight - startAt;
+        var currentTimestamp = 0;
+        var targetTimestamp = 0;
+        var epsilon = 0.1;
+        var step = 0.2;
+
+        $("body").mousemove(function (event) {
+            if (event.pageY > startAt) {
+                // video hasn't loaded yet, try checking
+                var percentageThrough = (event.pageY - startAt) / maxHeight;
+                percentageThrough = Math.max(Math.min(percentageThrough, 1.0), 0.0);
+                targetTimestamp = duration * percentageThrough;
+            } else {
+                targetTimestamp = 0;
+            }
+        });
+
+        window.setInterval(function() {
+            if (isNaN(duration)) {
+                duration = video.duration();
+            } else {
+                var delta = Math.abs(targetTimestamp - currentTimestamp);
+                if (currentTimestamp < targetTimestamp - epsilon) {
+                    currentTimestamp += delta / 10;
+                    video.currentTime(currentTimestamp);
+                }
+                else if (targetTimestamp + epsilon < currentTimestamp) {
+                    currentTimestamp -= delta / 10;
+                    video.currentTime(currentTimestamp);
+                }
+
+                console.log(currentTimestamp + " " + targetTimestamp);
+            }
+        }, 100);
+    }, false);
+</script>
+
+
+<!--class="home container center-focus-container"-->
+
+<div class="home container center-focus-container"> 
+    <video id="animation" 
+           class="homepage-animation"
+           poster="media/website/fff.png">
+        <source src="media/website/dropnotext.mp4" type= "video/mp4">
+        <!--<source src="media/website/drop1720p.mp4" type= "video/mp4">-->
+    </video>
+    <div class="center-focus"> 
+        <h1>TEDxUofW</h1> 
+        <p class="main">IN MOTION</p>
+        <p class="date">MAY 15 2016 @ 8 AM</p> 
+        <a href="/attend" class="btn-lg btn-tedx btn">Attend</a>
+    </div>
+</div>
