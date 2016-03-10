@@ -68,18 +68,19 @@
 
 .video-container {
     position: relative;
-    height: 88vh;
+    //height: 88vh;
 }
 
 .video-container .video-container-2 {
-    height: 88vh;
+    //height: 88vh;
+    margin-top: -8em;
 }
 
 .homepage-video {
     max-height: 100%;
 }
 
-.buy-button {
+.buy-button-container {
     position: relative;
     z-index: 3;
 }
@@ -106,10 +107,8 @@
 }
 
 @media (min-width: $screen-xs-min) {
-    .buy-button {
-        position: absolute;
+    .buy-button-container {
         top: 2em;
-        left: 2em;
     }
 
     .buy-button a {
