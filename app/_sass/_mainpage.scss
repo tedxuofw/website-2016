@@ -66,6 +66,19 @@
     }
 }
 
+.video-container {
+    position: relative;
+    height: 88vh;
+}
+
+.video-container .video-container-2 {
+    height: 88vh;
+}
+
+.homepage-video {
+    max-height: 100%;
+}
+
 .buy-button {
     position: relative;
     z-index: 3;
@@ -73,12 +86,13 @@
 
 .buy-button a {
     display: block;
-    border-radius: 8em;
-    height: 8em;
-    width: 8em;
-    padding-top: 3.3em;
+    border-radius: 6em;
+    height: 7em;
+    width: 7em;
+    padding-top: 2.8em;
     text-align:center;
     border: 1px solid $tedx-red;
+    background-color: #fff;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
     margin: 2em auto;
@@ -93,9 +107,9 @@
 
 @media (min-width: $screen-xs-min) {
     .buy-button {
-        position: fixed;
-        bottom: 2em;
-        right: 2em;
+        position: absolute;
+        top: 2em;
+        left: 2em;
     }
 
     .buy-button a {
@@ -103,3 +117,10 @@
     }
 }
 
+@media (min-width: $screen-sm-min) {
+    .buy-button a {
+        height: 8em;
+        width: 8em;
+        padding-top: 3.3em;
+    }
+}
