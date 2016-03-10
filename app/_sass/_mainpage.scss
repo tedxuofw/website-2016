@@ -80,6 +80,8 @@
     max-height: 100%;
 }
 
+
+//large screen buy button
 .buy-button-container {
     position: relative;
     z-index: 3;
@@ -90,6 +92,8 @@
     border-radius: 6em;
     height: 7em;
     width: 7em;
+    //height: 3em;
+    //width: 100%;
     padding-top: 2.8em;
     text-align:center;
     border: 1px solid $tedx-red;
@@ -110,7 +114,10 @@
     }
 
     .buy-button a {
+        border-radius: 6em;
         margin: 0 0;
+        height: 7em;
+        width: 7em;
     }
 }
 
@@ -119,5 +126,6 @@
         height: 8em;
         width: 8em;
         padding-top: 3.3em;
+        border-radius: 6em;
     }
 }
