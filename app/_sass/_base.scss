@@ -10,13 +10,17 @@ dl, dd, ol, ul, figure {
 
 p {
     margin-bottom: .5em;
+    font-size: 0.9em;
+    line-height: 1.5em;
 }
 
 h2 {
     max-width: 75%;
-    margin-bottom: 1em;
+    margin-bottom: 0.8em;
     padding-bottom: .25em;
     margin-top: 1em;
+    font-size: 1.8em;
+    font-weight: bold;
 }
 
 @media (min-width: $screen-md-min) {

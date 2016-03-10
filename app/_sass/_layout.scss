@@ -28,6 +28,7 @@ body {
 .page-heading {
     height: 100%;
     position: relative;
+    padding-top: 5em;
 }
 
 .page-heading h1 {
@@ -38,7 +39,9 @@ body {
     text-align: right;
     bottom: 0;
     right: 0;
-    margin-bottom: -12pt;
+    margin-bottom: -18pt;
+    font-size: 8em;
+    font-weight: bold;
 }
 
 .text-group {

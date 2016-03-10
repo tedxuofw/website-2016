@@ -12,7 +12,7 @@
         {% for speaker in include.speakers.speakers %}
             <div class="archive-video" 
                  id="{{ include.year }}-{{ speaker.unique_id }}">
-                <h3>{{ speaker.name }}: {{ speaker.talk_name }}</h3>
+                <h3>{{ speaker.name }}{% if speaker.talk_name != "" %}: {{ speaker.talk_name }}{% endif %}</h3>
 
                 {% if speaker.video != "" %}
                     <div class="embed-responsive embed-responsive-16by9"
