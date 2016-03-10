@@ -68,18 +68,19 @@
 
 .video-container {
     position: relative;
-    height: 88vh;
+    //height: 88vh;
 }
 
 .video-container .video-container-2 {
-    height: 88vh;
+    //height: 88vh;
+    margin-top: -8em;
 }
 
 .homepage-video {
     max-height: 100%;
 }
 
-.buy-button {
+.buy-button-container {
     position: relative;
     z-index: 3;
 }
@@ -92,7 +93,6 @@
     padding-top: 2.8em;
     text-align:center;
     border: 1px solid $tedx-red;
-    background-color: #fff;
     transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 
     margin: 2em auto;
@@ -101,15 +101,12 @@
         background-color: $tedx-red;
         color: white;
         text-decoration: none;
-
     }
 }
 
 @media (min-width: $screen-xs-min) {
-    .buy-button {
-        position: absolute;
+    .buy-button-container {
         top: 2em;
-        left: 2em;
     }
 
     .buy-button a {
