@@ -80,9 +80,30 @@
     max-height: 100%;
 }
 
+.buy-button-container-mobile {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+.buy-button-mobile {
+    //width: 80%;
+    text-align: center;
+    margin-top: 4pt;
+    padding: 1.5pt;
+    border: 1px solid $tedx-red;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    &:hover {
+        background-color: $tedx-red;
+        color: white;
+        text-decoration: none;
+    }
+}
 
 //large screen buy button
 .buy-button-container {
+    display: none;
     position: relative;
     z-index: 3;
 }
@@ -108,9 +129,18 @@
     }
 }
 
+.video-container-2 {
+    display: none;
+}
+
 @media (min-width: $screen-xs-min) {
     .buy-button-container {
         top: 2em;
+        display: block;
+    }
+
+    .buy-button-container-mobile {
+        display: none;
     }
 
     .buy-button a {
@@ -123,6 +153,14 @@
     .video-container .video-container-2 {
         //height: 88vh;
         margin-top: -8em;
+    }
+
+    .video-container-mobile {
+        display: none;
+    }
+
+    .video-container-2 {
+        display: block;
     }
 }
 
