@@ -60,7 +60,7 @@ speakers:
   unique_id: kevin_birrell
   talk_name: "The Digital Athelete"
   category: ""
-  image: /media/2012/speakers/ 
+  image: /media/2012/speakers/kevin-birrell.jpg
   video: "http://www.youtube.com/embed/Jp9yz3Wsrak"
   bio: |
      Kevin Birrell is a student at the University of Washington studying Computer Science and Percussion Performance in the Class of 2015. He is only one of four Tetris Grandmasters outside Japan in the world, and has a passion for e-Sports and competitive gaming. 
@@ -68,7 +68,7 @@ speakers:
   unique_id: andrew_mak 
   talk_name: "Philosophy of a Wanderer"
   category: ""
-  image: /media/2012/speakers/kevin-birrell.jpg
+  image: ""
   video: "http://www.youtube.com/embed/vvulZRu4y08"
   bio: |
      Andrew takes an interdisciplinary approach to learning, working, and life. While studying Comparative History of Ideas at the University of Washington, he has worked for Blue Box Group, the web host for MTV.com and VH1.com, WePay, an online payments startup in Silicon Valley, and UW’s International Genetic Engineered Machines team, winner of the iGEM World Championship for bioengineering. 
