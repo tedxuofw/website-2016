@@ -39,9 +39,15 @@ body {
     text-align: right;
     bottom: 0;
     right: 0;
-    margin-bottom: -18pt;
-    font-size: 8em;
+    margin-bottom: -13pt;
     font-weight: bold;
+}
+
+@media (min-width: $screen-sm-min) {
+    .page-heading h1 {
+        font-size: 8em;
+        margin-bottom: -18pt;
+    }
 }
 
 .text-group {
