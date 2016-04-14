@@ -22,7 +22,7 @@ speakers:
   unique_id: lara_zarowsky
   talk_name: "talk name"
   category: ""
-  image: "/media/2026/speakers/person2.jpg"
+  image: "/media/2016/speakers/person2.jpg"
   video: ""
   visible: false
   bio: |
@@ -31,7 +31,7 @@ speakers:
   unique_id: elizabeth_nance
   talk_name: "talk name"
   category: ""
-  image: "/media/2026/speakers/person2.jpg"
+  image: "/media/2016/speakers/person2.jpg"
   video: ""
   visible: false
   bio: |
@@ -40,7 +40,7 @@ speakers:
   unique_id: derek_sutherland
   talk_name: "talk name"
   category: ""
-  image: "/media/2026/speakers/derek-sutherland.jpg"
+  image: "/media/2016/speakers/derek-sutherland.jpg"
   video: ""
   visible: true
   bio: |
@@ -49,7 +49,7 @@ speakers:
   unique_id: john_eklof
   talk_name: "talk name"
   category: ""
-  image: "/media/2026/speakers/person2.jpg"
+  image: "/media/2016/speakers/person2.jpg"
   video: ""
   visible: false
   bio: |
@@ -58,7 +58,7 @@ speakers:
   unique_id: angela_bullock
   talk_name: "talk name"
   category: ""
-  image: "/media/2026/speakers/person2.jpg"
+  image: "/media/2016/speakers/person2.jpg"
   video: ""
   visible: false
   bio: |
@@ -67,7 +67,7 @@ speakers:
   unique_id: james_long
   talk_name: "talk name"
   category: ""
-  image: "/media/2026/speakers/person2.jpg"
+  image: "/media/2016/speakers/person2.jpg"
   video: ""
   visible: false
   bio: |
