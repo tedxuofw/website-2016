@@ -11,12 +11,10 @@ page_id: speakers
     </div>
 
     <div class="parallax-content container">
-        <h2 class="attend-heading">Attend</h2>
-
-        {% for speaker in site.data.2016-speakers %}
-            {% if speaker.visible %} 
+        {% for speaker in site.data.2016-speakers.speakers %}
+            {% if speaker.visible %}
                 <div class="speaker">
-                    <h3>{{ speaker.name }}</h3>
+                    <h2>{{ speaker.name }}</h2>
                     <div class="row">
                         <div class="col-xs-12 col-sm-4 col-lg-3">
                             <img src="{{ speaker.image }}" 
@@ -29,6 +27,8 @@ page_id: speakers
                 </div>
             {% endif %}
         {% endfor %}
+        <!-- Hack -->
+        <div style="height:1em"></div>
     </div>
 
     <div class="parallax ocean-parallax"></div>
