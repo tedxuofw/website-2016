@@ -1,12 +1,15 @@
 -   title: "Home"
     id: home
     url: /
--   title: "About"
-    id: about
-    url: /about
 -   title: "Attend"
     id: attend
     url: /attend
+-   title: "Speakers"
+    id: speakers
+    url: /speakers
+-   title: "About"
+    id: about
+    url: /about
 -   title: "Archive"
     id: archive 
     url: /archive

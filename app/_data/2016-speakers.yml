@@ -1,0 +1,18 @@
+playlist: ""
+speakers: 
+- name: "Person 1"
+  unique_id: person_1 
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/person1.jpg"
+  video: ""
+  bio: |
+      Bio of somebody here
+- name: "Person 2"
+  unique_id: person_2 
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2026/speakers/person2.jpg"
+  video: ""
+  bio: |
+      Bio of somebody here
