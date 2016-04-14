@@ -1,18 +1,76 @@
 playlist: ""
-speakers: 
-- name: "Person 1"
-  unique_id: person_1 
+speakers:
+- name: "Pedro Domingos"
+  unique_id: pedro_domingos
   talk_name: "talk name"
   category: ""
-  image: "/media/2016/speakers/person1.jpg"
+  image: "/media/2016/speakers/pedro-domingos.jpg"
   video: ""
+  visible: true
   bio: |
-      Bio of somebody here
-- name: "Person 2"
-  unique_id: person_2 
+      Pedro Domingos is a professor of computer science at the University of Washington and the author of "The Master Algorithm". He is a winner of the SIGKDD Innovation Award, the highest honor in data science. He is a Fellow of the Association for the Advancement of Artificial Intelligence, and has received a Fulbright Scholarship, a Sloan Fellowship, the National Science Foundation’s CAREER Award, and numerous best paper awards. He received his Ph.D. from the University of California at Irvine and is the author or co­author of over 200 technical publications. He has held visiting positions at Stanford, Carnegie Mellon, and MIT. He co­founded the International Machine Learning Society in 2001. His research spans a wide variety of topics in machine learning, artificial intelligence, and data science, including scaling learning algorithms to big data, maximizing word of mouth in social networks, unifying logic and probability, and deep learning.
+- name: "Lynette Johnson"
+  unique_id: lynette_johnson
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/lynette-johnson.jpg"
+  video: ""
+  visible: true
+  bio: |
+    Lynette is a Seattle based photographer, wife, mother of two and the founder of the non­profit Soulumination. A Northwest native, Lynette has taken a passion for photographing people and followed it through a successful career and into the world of legacy photography. Through Soulumination and with the talent of 60 local photographers, families facing devastating loss have the opportunity to receive photo services free of charge. Lynette's diagnosis of lymphoma and its minefield of treatments and emotional issues has added a depth of compassion and understanding leading to new resolve and bolder leadership skills.
+- name: "Lara Zarowsky"
+  unique_id: lara_zarowsky
   talk_name: "talk name"
   category: ""
   image: "/media/2026/speakers/person2.jpg"
   video: ""
+  visible: false
+  bio: |
+    Bio of somebody here
+- name: "Elizabeth Nance"
+  unique_id: elizabeth_nance
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2026/speakers/person2.jpg"
+  video: ""
+  visible: false
   bio: |
       Bio of somebody here
+- name: "Derek Sutherland"
+  unique_id: derek_sutherland
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2026/speakers/derek-sutherland.jpg"
+  video: ""
+  visible: true
+  bio: |
+      Derek Sutherland is a graduate research associate at the University of Washington (UW), and is also the CEO of CTFusion, a spin-off company dedicated to the development of economical, compact toroidal fusion reactors. Derek, a native of Orlando, Florida, performed his undergraduate work at MIT, and graduated 2012 with a double major in Nuclear Engineering and in Physics, with a strong focus on plasma physics and fusion. Professor Jarboe (PI), Derek, and the rest of the HIT-SI team at the UW issued a press release in 2014 concerning the Dynomak, a full-scale reactor concept that is estimated to cost less than a coal-fired power plant at the same power output. Derek was recognized as one of Forbes’ 30 under 30 in Energy in 2015 for his work on the dynomak reactor concept. CoMotion at the UW awarded the CTFusion team a $50k Innovation Fund to help the company get off the ground, and Derek was a CoMotion Graduate Innovator Award recipient in 2015 as well. He has had considerable experience working with multiple public and private fusion ventures, from the mainline tokamak devices at MIT and General Atomics to the alternative concepts of spheromaks and field-reversed configurations at the University of Washington, General Fusion Inc., and Los Alamos National Laboratories. Derek seeks to demonstrate the method of fusion CTFusion is pursuing scales to an economical fusion reactor that will be able to compete with, and outperform conventional energy sources.
+- name: "John Eklof"
+  unique_id: john_eklof
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2026/speakers/person2.jpg"
+  video: ""
+  visible: false
+  bio: |
+      Bio of somebody here
+- name: "Angela Bullock"
+  unique_id: angela_bullock
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2026/speakers/person2.jpg"
+  video: ""
+  visible: false
+  bio: |
+      Bio of somebody here
+- name: "James Long"
+  unique_id: james_long
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2026/speakers/person2.jpg"
+  video: ""
+  visible: false
+  bio: |
+      Bio of somebody here
+
+
