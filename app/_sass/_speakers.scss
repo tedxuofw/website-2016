@@ -1,0 +1,10 @@
+
+.speaker img {
+  padding-bottom: 1em;
+}
+
+@media (min-width: $screen-sm-min) {
+  .speaker {
+    margin-bottom: 2em;
+  }
+}
