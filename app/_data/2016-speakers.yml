@@ -22,20 +22,20 @@ speakers:
   unique_id: lara_zarowsky
   talk_name: "talk name"
   category: ""
-  image: "/media/2016/speakers/person2.jpg"
+  image: "/media/2016/speakers/lara-zarowsky.jpg"
   video: ""
-  visible: false
+  visible: true
   bio: |
-    Bio of somebody here
+    Lara serves as the Policy Director for Innocence Project Northwest (IPNW), a clinical law program at the University of Washington School of Law committed to freeing innocent prisoners in Washington State using DNA and other new evidence. Her work promotes systemic reforms to prevent wrongful convictions in Washington State, and to support the wrongly convicted following release. Lara is a member of the faculty at the University of Washington School of Law, where she founded IPNW’s Legislative Advocacy Clinic in 2011. Her Clinic students championed a 2013 law to compensate Washington’s wrongly convicted and a 2015 law to preserve biological evidence. A graduate of the Evergreen State College in Olympia and University of Washington School of Law, Lara has worked on issues related to the criminal justice system since 2001 with previous positions as a policy attorney for the Integrity of Justice Project, and as non-partisan staff to the Judiciary and Public Safety committees of the Washington State House of Representatives. Lara lectures nationally on innocence-related public policy reform and testifies on such topics before state legislative workgroups and committees. Lara leads IPNW efforts to collaborate with criminal justice leaders to improve statewide practices; she is a founding member of the working group whose efforts resulted in the 2015 adoption of an Eyewitness Identification Model Policy by the Washington Association of Prosecuting Attorneys and the Washington Association of Sheriffs and Police Chiefs.
 - name: "Elizabeth Nance"
   unique_id: elizabeth_nance
   talk_name: "talk name"
   category: ""
-  image: "/media/2016/speakers/person2.jpg"
+  image: "/media/2016/speakers/elizabeth-nance.jpg"
   video: ""
-  visible: false
+  visible: true
   bio: |
-      Bio of somebody here
+      Elizabeth Nance is the Clare Boothe Luce Assistant Professor of Chemical Engineering at the University of Washington, with an adjunct appointment in Radiology. Elizabeth was named as a Forbes 30 under 30 in Science and Medicine in 2015, as one of the “most disruptive, game-changing and innovating young personalities in science.” Her passion is to find ways to more efficiently connect resources and information across multiple scientific and engineering disciplines. Thus far, Elizabeth’s career has been built on the guiding principle that these connections can be accomplished by establishing more effective communication, and asking questions in a less field-specific manner. Elizabeth’s research focuses on using nanotechnology platforms to understand the movement of molecules in the brain. She is particularly interested in characterizing how common disease hallmarks, such as inflammation, impaired fluid flow, and cell death, impact our ability to treat brain diseases like autism, stroke, traumatic brain injury, and epilepsy. Her long term goal is to utilize nanotechnology in patients to give real-time information about the brain, and take advantage of those disease hallmarks to improve diagnosis and direct therapy.
 - name: "Derek Sutherland"
   unique_id: derek_sutherland
   talk_name: "talk name"
@@ -49,11 +49,11 @@ speakers:
   unique_id: john_eklof
   talk_name: "talk name"
   category: ""
-  image: "/media/2016/speakers/person2.jpg"
+  image: "/media/2016/speakers/john-eklof.jpg"
   video: ""
-  visible: false
+  visible: true
   bio: |
-      Bio of somebody here
+      Meet John Eklof. John is a poet, educator and community organizer from Lakewood, Washington. He is currently a graduate student at the University of Washington studying Multicultural Education. He has dedicated his life to personal improvement and uplifting his community both economically and politically. On February 21, 2016, John released his first full length spoken word album entitled The End of the Beginning. The album is a cultural revolution in sonic form. It’s a journey from start to finish that runs like a 23 minute short film. It’s part spoken word poetry, part hip-hop album, part oratory, part science-fiction, and fully political. Additionally, John has been a professional public speaker for the past 8 years. He’s traveled all throughout the country speaking on subjects such as social justice, building personal success, and unifying the millennial generation into changing our world. He’s guest lectured on many college campuses such as the University of Washington all the way to South Seattle College. His lectures range from understanding the dynamics of privilege and marginalization, creating action oriented social justice, and leadership and empowerment. John is also a part of the political group the Organization of Revolutionary Ideas Operating in the Now which has the aim of demonstrating unity through collaborative action and self-education. His goal is to run for national political office and ultimately help transform the world for the better.
 - name: "Angela Popplewell"
   unique_id: angela_popplewell
   talk_name: "talk name"
@@ -67,10 +67,8 @@ speakers:
   unique_id: james_long
   talk_name: "talk name"
   category: ""
-  image: "/media/2016/speakers/person2.jpg"
+  image: "/media/2016/speakers/james-long.jpg"
   video: ""
-  visible: false
+  visible: true
   bio: |
-      Bio of somebody here
-
-
+      James D. Long is an Assistant Professor of Political Science at the University of Washington and an Academy Scholar at the Harvard Academy for International and Area Studies. He is a faculty affiliate at the University of Washington's Center for Statistics and the Social Sciences (CSSS), Technology and Social Change Group (TASCHA), Near and Middle East Studies Program, and UC-Berkeley's Center for Effective Global Action (CEGA). He is the founding co-convenor of UW's Forum on Political Economy and Economics. James's research in sub-Saharan Africa and Afghanistan focuses on elections in developing countries, including the determinants of voting behavior, the dynamics of electoral fraud, the impact of ICT on corruption monitoring, and the effects of civil war and insurgency on state-building. In 2010, James served as Democracy Internationalʼs Research Director for their Election Observation mission for Afghanistan, and has observed elections in South Africa (2014), Kenya (2013, 2007), Egypt (2011), Uganda (2011), Afghanistan (2014, 2010, 2009), and Ghana (2008).
