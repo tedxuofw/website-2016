@@ -1,14 +1,5 @@
 playlist: ""
 speakers:
-- name: "Pedro Domingos"
-  unique_id: pedro_domingos
-  talk_name: "talk name"
-  category: ""
-  image: "/media/2016/speakers/pedro-domingos.jpg"
-  video: ""
-  visible: true
-  bio: |
-      Pedro Domingos is a professor of computer science at the University of Washington and the author of "The Master Algorithm". He is a winner of the SIGKDD Innovation Award, the highest honor in data science. He is a Fellow of the Association for the Advancement of Artificial Intelligence, and has received a Fulbright Scholarship, a Sloan Fellowship, the National Science Foundation’s CAREER Award, and numerous best paper awards. He received his Ph.D. from the University of California at Irvine and is the author or co­author of over 200 technical publications. He has held visiting positions at Stanford, Carnegie Mellon, and MIT. He co­founded the International Machine Learning Society in 2001. His research spans a wide variety of topics in machine learning, artificial intelligence, and data science, including scaling learning algorithms to big data, maximizing word of mouth in social networks, unifying logic and probability, and deep learning.
 - name: "Lynette Johnson"
   unique_id: lynette_johnson
   talk_name: "talk name"
@@ -17,52 +8,7 @@ speakers:
   video: ""
   visible: true
   bio: |
-    Lynette is a Seattle based photographer, wife, mother of two and the founder of the non­profit Soulumination. A Northwest native, Lynette has taken a passion for photographing people and followed it through a successful career and into the world of legacy photography. Through Soulumination and with the talent of 60 local photographers, families facing devastating loss have the opportunity to receive photo services free of charge. Lynette's diagnosis of lymphoma and its minefield of treatments and emotional issues has added a depth of compassion and understanding leading to new resolve and bolder leadership skills.
-- name: "Lara Zarowsky"
-  unique_id: lara_zarowsky
-  talk_name: "talk name"
-  category: ""
-  image: "/media/2016/speakers/lara-zarowsky.jpg"
-  video: ""
-  visible: true
-  bio: |
-    Lara serves as the Policy Director for Innocence Project Northwest (IPNW), a clinical law program at the University of Washington School of Law committed to freeing innocent prisoners in Washington State using DNA and other new evidence. Her work promotes systemic reforms to prevent wrongful convictions in Washington State, and to support the wrongly convicted following release. Lara is a member of the faculty at the University of Washington School of Law, where she founded IPNW’s Legislative Advocacy Clinic in 2011. Her Clinic students championed a 2013 law to compensate Washington’s wrongly convicted and a 2015 law to preserve biological evidence. A graduate of the Evergreen State College in Olympia and University of Washington School of Law, Lara has worked on issues related to the criminal justice system since 2001 with previous positions as a policy attorney for the Integrity of Justice Project, and as non-partisan staff to the Judiciary and Public Safety committees of the Washington State House of Representatives. Lara lectures nationally on innocence-related public policy reform and testifies on such topics before state legislative workgroups and committees. Lara leads IPNW efforts to collaborate with criminal justice leaders to improve statewide practices; she is a founding member of the working group whose efforts resulted in the 2015 adoption of an Eyewitness Identification Model Policy by the Washington Association of Prosecuting Attorneys and the Washington Association of Sheriffs and Police Chiefs.
-- name: "Elizabeth Nance"
-  unique_id: elizabeth_nance
-  talk_name: "talk name"
-  category: ""
-  image: "/media/2016/speakers/elizabeth-nance.jpg"
-  video: ""
-  visible: true
-  bio: |
-      Elizabeth Nance is the Clare Boothe Luce Assistant Professor of Chemical Engineering at the University of Washington, with an adjunct appointment in Radiology. Elizabeth was named as a Forbes 30 under 30 in Science and Medicine in 2015, as one of the “most disruptive, game-changing and innovating young personalities in science.” Her passion is to find ways to more efficiently connect resources and information across multiple scientific and engineering disciplines. Thus far, Elizabeth’s career has been built on the guiding principle that these connections can be accomplished by establishing more effective communication, and asking questions in a less field-specific manner. Elizabeth’s research focuses on using nanotechnology platforms to understand the movement of molecules in the brain. She is particularly interested in characterizing how common disease hallmarks, such as inflammation, impaired fluid flow, and cell death, impact our ability to treat brain diseases like autism, stroke, traumatic brain injury, and epilepsy. Her long term goal is to utilize nanotechnology in patients to give real-time information about the brain, and take advantage of those disease hallmarks to improve diagnosis and direct therapy.
-- name: "Derek Sutherland"
-  unique_id: derek_sutherland
-  talk_name: "talk name"
-  category: ""
-  image: "/media/2016/speakers/derek-sutherland.jpg"
-  video: ""
-  visible: true
-  bio: |
-      Derek Sutherland is a graduate research associate at the University of Washington (UW), and is also the CEO of CTFusion, a spin-off company dedicated to the development of economical, compact toroidal fusion reactors. Derek, a native of Orlando, Florida, performed his undergraduate work at MIT, and graduated 2012 with a double major in Nuclear Engineering and in Physics, with a strong focus on plasma physics and fusion. Professor Jarboe (PI), Derek, and the rest of the HIT-SI team at the UW issued a press release in 2014 concerning the Dynomak, a full-scale reactor concept that is estimated to cost less than a coal-fired power plant at the same power output. Derek was recognized as one of Forbes’ 30 under 30 in Energy in 2015 for his work on the dynomak reactor concept. CoMotion at the UW awarded the CTFusion team a $50k Innovation Fund to help the company get off the ground, and Derek was a CoMotion Graduate Innovator Award recipient in 2015 as well. He has had considerable experience working with multiple public and private fusion ventures, from the mainline tokamak devices at MIT and General Atomics to the alternative concepts of spheromaks and field-reversed configurations at the University of Washington, General Fusion Inc., and Los Alamos National Laboratories. Derek seeks to demonstrate the method of fusion CTFusion is pursuing scales to an economical fusion reactor that will be able to compete with, and outperform conventional energy sources.
-- name: "John Eklof"
-  unique_id: john_eklof
-  talk_name: "talk name"
-  category: ""
-  image: "/media/2016/speakers/john-eklof.jpg"
-  video: ""
-  visible: true
-  bio: |
-      Meet John Eklof. John is a poet, educator and community organizer from Lakewood, Washington. He is currently a graduate student at the University of Washington studying Multicultural Education. He has dedicated his life to personal improvement and uplifting his community both economically and politically. On February 21, 2016, John released his first full length spoken word album entitled The End of the Beginning. The album is a cultural revolution in sonic form. It’s a journey from start to finish that runs like a 23 minute short film. It’s part spoken word poetry, part hip-hop album, part oratory, part science-fiction, and fully political. Additionally, John has been a professional public speaker for the past 8 years. He’s traveled all throughout the country speaking on subjects such as social justice, building personal success, and unifying the millennial generation into changing our world. He’s guest lectured on many college campuses such as the University of Washington all the way to South Seattle College. His lectures range from understanding the dynamics of privilege and marginalization, creating action oriented social justice, and leadership and empowerment. John is also a part of the political group the Organization of Revolutionary Ideas Operating in the Now which has the aim of demonstrating unity through collaborative action and self-education. His goal is to run for national political office and ultimately help transform the world for the better.
-- name: "Angela Popplewell"
-  unique_id: angela_popplewell
-  talk_name: "talk name"
-  category: ""
-  image: "/media/2016/speakers/angela-bullock.jpg"
-  video: ""
-  visible: true
-  bio: |
-      Angela Francine Popplewell is a founder and the Chief Storyteller for 100cameras, a non-profit organization that teaches kids around the world that their stories matter and helps them explore their narratives in the larger context of a global world. By building a model that teaches students how to share their perspectives through photography and then sells their images, kids are empowered to become the change makers and provide much needed educational, lifeline, and medical supplies for themselves and other community members. Popplewell has lived and worked abroad with multiple educational and community development programs located in places such as Romania and India. These experiences along with others redirected her passion early on in her twenties from working towards a broadcast journalism career to instead working with kids, the power of storytelling, and local community development initiatives worldwide. Prior to 100cameras, she was one of charity:water’s first interns and was Director of Development at New Life of NYC, an inner-city community center located on the Lower East Side of Manhattan. Popplewell currently lives in Brooklyn, NY with her husband, Ty, and their adorable newborn son, Theodore Brooks.
+    Lynette is a Seattle based photographer, wife, mother of two and the founder of the non-profit Soulumination. A Northwest native, Lynette has taken a passion for photographing people and followed it through a successful career and into the world of legacy photography. Through Soulumination and with the talent of 60 local photographers, families facing devastating loss have the opportunity to receive photo services free of charge. Lynette's diagnosis of lymphoma and its minefield of treatments and emotional issues has added a depth of compassion and understanding leading to new resolve and bolder leadership skills.
 - name: "James Long"
   unique_id: james_long
   talk_name: "talk name"
@@ -71,4 +17,58 @@ speakers:
   video: ""
   visible: true
   bio: |
-      James D. Long is an Assistant Professor of Political Science at the University of Washington and an Academy Scholar at the Harvard Academy for International and Area Studies. He is a faculty affiliate at the University of Washington's Center for Statistics and the Social Sciences (CSSS), Technology and Social Change Group (TASCHA), Near and Middle East Studies Program, and UC-Berkeley's Center for Effective Global Action (CEGA). He is the founding co-convenor of UW's Forum on Political Economy and Economics. James's research in sub-Saharan Africa and Afghanistan focuses on elections in developing countries, including the determinants of voting behavior, the dynamics of electoral fraud, the impact of ICT on corruption monitoring, and the effects of civil war and insurgency on state-building. In 2010, James served as Democracy Internationalʼs Research Director for their Election Observation mission for Afghanistan, and has observed elections in South Africa (2014), Kenya (2013, 2007), Egypt (2011), Uganda (2011), Afghanistan (2014, 2010, 2009), and Ghana (2008).
+      James D. Long is an Assistant Professor of Political Science at the University of Washington and an Academy Scholar at the Harvard Academy for International and Area Studies. He is a faculty affiliate at the University of Washington's Center for Statistics and the Social Sciences (CSSS), Technology and Social Change Group (TASCHA), Near and Middle East Studies Program, and UC-Berkeley's Center for Effective Global Action (CEGA). He is the founding co-convenor of UW's Forum on Political Economy and Economics. James's research in sub-Saharan Africa and Afghanistan focuses on elections in developing countries, including the determinants of voting behavior, the dynamics of electoral fraud, the impact of ICT on corruption monitoring, and the effects of civil war and insurgency on state-building. In 2010, James served as Democracy International's Research Director for their Election Observation mission for Afghanistan, and has observed elections in South Africa (2014), Kenya (2013, 2007), Egypt (2011), Uganda (2011), Afghanistan (2014, 2010, 2009), and Ghana (2008).
+- name: "Derek Sutherland"
+  unique_id: derek_sutherland
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/derek-sutherland.jpg"
+  video: ""
+  visible: true
+  bio: |
+      Derek Sutherland is a graduate research associate at the University of Washington (UW), and is also the CEO of CTFusion, a spin-off company dedicated to the development of economical, compact toroidal fusion reactors. Derek, a native of Orlando, Florida, performed his undergraduate work at MIT, and graduated 2012 with a double major in Nuclear Engineering and in Physics, with a strong focus on plasma physics and fusion. Professor Jarboe (PI), Derek, and the rest of the HIT-SI team at the UW issued a press release in 2014 concerning the Dynomak, a full-scale reactor concept that is estimated to cost less than a coal-fired power plant at the same power output. Derek was recognized as one of Forbes' 30 under 30 in Energy in 2015 for his work on the dynomak reactor concept. CoMotion at the UW awarded the CTFusion team a $50k Innovation Fund to help the company get off the ground, and Derek was a CoMotion Graduate Innovator Award recipient in 2015 as well. He has had considerable experience working with multiple public and private fusion ventures, from the mainline tokamak devices at MIT and General Atomics to the alternative concepts of spheromaks and field-reversed configurations at the University of Washington, General Fusion Inc., and Los Alamos National Laboratories. Derek seeks to demonstrate the method of fusion CTFusion is pursuing scales to an economical fusion reactor that will be able to compete with, and outperform conventional energy sources.
+- name: "Elizabeth Nance"
+  unique_id: elizabeth_nance
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/elizabeth-nance.jpg"
+  video: ""
+  visible: true
+  bio: |
+      Elizabeth Nance is the Clare Boothe Luce Assistant Professor of Chemical Engineering at the University of Washington, with an adjunct appointment in Radiology. Elizabeth was named as a Forbes 30 under 30 in Science and Medicine in 2015, as one of the &ldquo;most disruptive, game-changing and innovating young personalities in science.&rdquo; Her passion is to find ways to more efficiently connect resources and information across multiple scientific and engineering disciplines. Thus far, Elizabeth's career has been built on the guiding principle that these connections can be accomplished by establishing more effective communication, and asking questions in a less field-specific manner. Elizabeth's research focuses on using nanotechnology platforms to understand the movement of molecules in the brain. She is particularly interested in characterizing how common disease hallmarks, such as inflammation, impaired fluid flow, and cell death, impact our ability to treat brain diseases like autism, stroke, traumatic brain injury, and epilepsy. Her long term goal is to utilize nanotechnology in patients to give real-time information about the brain, and take advantage of those disease hallmarks to improve diagnosis and direct therapy.
+- name: "Pedro Domingos"
+  unique_id: pedro_domingos
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/pedro-domingos.jpg"
+  video: ""
+  visible: true
+  bio: |
+      Pedro Domingos is a professor of computer science at the University of Washington and the author of "The Master Algorithm". He is a winner of the SIGKDD Innovation Award, the highest honor in data science. He is a Fellow of the Association for the Advancement of Artificial Intelligence, and has received a Fulbright Scholarship, a Sloan Fellowship, the National Science Foundation's CAREER Award, and numerous best paper awards. He received his Ph.D. from the University of California at Irvine and is the author or co-author of over 200 technical publications. He has held visiting positions at Stanford, Carnegie Mellon, and MIT. He co-founded the International Machine Learning Society in 2001. His research spans a wide variety of topics in machine learning, artificial intelligence, and data science, including scaling learning algorithms to big data, maximizing word of mouth in social networks, unifying logic and probability, and deep learning.
+- name: "John Eklof"
+  unique_id: john_eklof
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/john-eklof.jpg"
+  video: ""
+  visible: true
+  bio: |
+      Meet John Eklof. John is a poet, educator and community organizer from Lakewood, Washington. He is currently a graduate student at the University of Washington studying Multicultural Education. He has dedicated his life to personal improvement and uplifting his community both economically and politically. On February 21, 2016, John released his first full length spoken word album entitled The End of the Beginning. The album is a cultural revolution in sonic form. It's a journey from start to finish that runs like a 23 minute short film. It's part spoken word poetry, part hip-hop album, part oratory, part science-fiction, and fully political. Additionally, John has been a professional public speaker for the past 8 years. He's traveled all throughout the country speaking on subjects such as social justice, building personal success, and unifying the millennial generation into changing our world. He's guest lectured on many college campuses such as the University of Washington all the way to South Seattle College. His lectures range from understanding the dynamics of privilege and marginalization, creating action oriented social justice, and leadership and empowerment. John is also a part of the political group the Organization of Revolutionary Ideas Operating in the Now which has the aim of demonstrating unity through collaborative action and self-education. His goal is to run for national political office and ultimately help transform the world for the better.
+- name: "Lara Zarowsky"
+  unique_id: lara_zarowsky
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/lara-zarowsky.jpg"
+  video: ""
+  visible: true
+  bio: |
+    Lara serves as the Policy Director for Innocence Project Northwest (IPNW), a clinical law program at the University of Washington School of Law committed to freeing innocent prisoners in Washington State using DNA and other new evidence. Her work promotes systemic reforms to prevent wrongful convictions in Washington State, and to support the wrongly convicted following release. Lara is a member of the faculty at the University of Washington School of Law, where she founded IPNW's Legislative Advocacy Clinic in 2011. Her Clinic students championed a 2013 law to compensate Washington's wrongly convicted and a 2015 law to preserve biological evidence. A graduate of the Evergreen State College in Olympia and University of Washington School of Law, Lara has worked on issues related to the criminal justice system since 2001 with previous positions as a policy attorney for the Integrity of Justice Project, and as non-partisan staff to the Judiciary and Public Safety committees of the Washington State House of Representatives. Lara lectures nationally on innocence-related public policy reform and testifies on such topics before state legislative workgroups and committees. Lara leads IPNW efforts to collaborate with criminal justice leaders to improve statewide practices; she is a founding member of the working group whose efforts resulted in the 2015 adoption of an Eyewitness Identification Model Policy by the Washington Association of Prosecuting Attorneys and the Washington Association of Sheriffs and Police Chiefs.
+- name: "Angela Popplewell"
+  unique_id: angela_popplewell
+  talk_name: "talk name"
+  category: ""
+  image: "/media/2016/speakers/angela-bullock.jpg"
+  video: ""
+  visible: true
+  bio: |
+      Angela Francine Popplewell is a founder and the Chief Storyteller for 100cameras, a non-profit organization that teaches kids around the world that their stories matter and helps them explore their narratives in the larger context of a global world. By building a model that teaches students how to share their perspectives through photography and then sells their images, kids are empowered to become the change makers and provide much needed educational, lifeline, and medical supplies for themselves and other community members. Popplewell has lived and worked abroad with multiple educational and community development programs located in places such as Romania and India. These experiences along with others redirected her passion early on in her twenties from working towards a broadcast journalism career to instead working with kids, the power of storytelling, and local community development initiatives worldwide. Prior to 100cameras, she was one of charity:water's first interns and was Director of Development at New Life of NYC, an inner-city community center located on the Lower East Side of Manhattan. Popplewell currently lives in Brooklyn, NY with her husband, Ty, and their adorable newborn son, Theodore Brooks.
