@@ -10,7 +10,16 @@ page_id: archive
         </div>
     </div>
 
-    <div class="parallax-content container">
+    <div id="2016" class="parallax-content container">
+        {% include summary-all.html
+                   year=2016
+                   description_path="2016-description.html"
+                   speakers=site.data.2016-speakers %}
+    </div>
+
+    <div class="parallax ocean-parallax"></div>
+
+    <div id="2015" class="parallax-content container">
         {% include summary-all.html
                    year=2015
                    description_path="2015-description.html"
@@ -20,7 +29,7 @@ page_id: archive
 
     <div class="parallax ocean-parallax"></div>
 
-    <div class="parallax-content container">
+    <div id="2014" class="parallax-content container">
         {% include summary-all.html
                    year=2014
                    description_path="2014-description.html"
@@ -30,7 +39,7 @@ page_id: archive
 
     <div class="parallax ocean-parallax"></div>
 
-    <div class="parallax-content container">
+    <div id="2013" class="parallax-content container">
         {% include summary-all.html
                    year=2013
                    description_path="2013-description.html"
@@ -39,7 +48,7 @@ page_id: archive
 
     <div class="parallax ocean-parallax"></div>
 
-    <div class="parallax-content container">
+    <div id="2012" class="parallax-content container">
         {% include summary-all.html
                    year=2012
                    description_path="2012-description.html"
